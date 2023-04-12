@@ -32,7 +32,7 @@ const zunion_pkg = b.dependency("zunion", .{
     .optimize = optimize,
 });
 const zunion_mod = zunion_pkg.module("zunion");
-lib.addModule("zunion", zunion);
+lib.addModule("zunion", zunion_mod);
 main_tests.addModule("zunion", zunion_mod);
 ```
 
