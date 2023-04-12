@@ -3,7 +3,7 @@ const testing = std.testing;
 const expectEqual = testing.expectEqual;
 const Allocator = std.mem.Allocator;
 
-fn DisjointSet(comptime T: type) type {
+pub fn DisjointSet(comptime T: type) type {
     return struct {
         parent: *@This(),
         rank: usize,
