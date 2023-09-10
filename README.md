@@ -17,7 +17,7 @@ Copy-paste or [git-subrepo](https://github.com/ingydotnet/git-subrepo) or whatev
     .version = "0.0.0",
     .dependencies = .{
         .zunion = .{
-            .url = "https://github.com/github/hmusgrave/archive/9cf8401f66529b41b5cb2776dbf8cab6b4b7865c.tar'gz",
+            .url = "https://github.com/hmusgrave/zunion/archive/9cf8401f66529b41b5cb2776dbf8cab6b4b7865c.tar.gz",
         },
     },
 
